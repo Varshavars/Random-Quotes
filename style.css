@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("https://e0.pxfuel.com/wallpapers/421/187/desktop-wallpaper-unique-and-beautiful-natural-green-for-green-plant.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  
+  }
+  
+  #jsdiv {
+    font-size: 20px;
+    color: #050000;
+    width: 50%;
+    height: fit-content;
+    font-family: 'Protest Revolution', sans-serif;
+    background-color: rgb(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    border: #1d1b1b 2px solid;
+  }
+  
+  #next{
+    font-size: 14px;
+    position: absolute;
+    top:60%;
+    left:auto;
+    color: #050000;
+    width: 6%;
+    height:  fit-content 40px;
+    font-family: 'Protest Revolution', sans-serif;
+    background-color: rgb(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
