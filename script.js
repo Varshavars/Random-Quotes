@@ -62,15 +62,15 @@ const motivationalQuotes = [
     "If you believe it will work out, you’ll see opportunities. If you believe it won’t, you will see obstacles. - Wayne Dyer",
     "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful. - Albert Schweitzer",
     "Nothing is impossible. The word itself says 'I'm possible!' - Audrey Hepburn"];
-  
-  var s = motivationalQuotes[Math.floor(Math.random() * motivationalQuotes.length)]
-  document.write(s)
-  
-  function next(){
-      s = motivationalQuotes[Math.floor(Math.random() * motivationalQuotes.length)]
-      jsdiv.innerHTML = s
-  }
-  
 
-  
-  
+var s = motivationalQuotes[Math.floor(Math.random() * motivationalQuotes.length)]
+document.write(s)
+
+function next() {
+    s = motivationalQuotes[Math.floor(Math.random() * motivationalQuotes.length)]
+    document.body.style.backgroundImage = "url('https://random.imagecdn.app/v1/image?width=500&height=150')"
+    jsdiv.innerHTML = s
+}
+
+
+
